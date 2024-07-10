@@ -27,3 +27,10 @@ All the required routes are mentioned in Git hub repository particular file.
 2. MongoDB
 3. Mongoose
 4. Express JS
+
+
+## Setup
+
+- Run **npm i** to install all the modules.
+- Run server.js to start the application.
+
