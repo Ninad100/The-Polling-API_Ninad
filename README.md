@@ -5,6 +5,9 @@
 This project is designed as backend API for the polling system. In this user can post question, user can add options to question, any user can give vote to the options. Any user can delete the option or question.
 Detailed features are explained in following sections.
 
+The Application is Hosted on: http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000/
+(Note: This AWS instance will be terminated once I start new project.)
+
 ## Features
 
 Using this API any users can:
