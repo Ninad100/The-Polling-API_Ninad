@@ -5,7 +5,7 @@
 This project is designed as backend API for the polling system. In this user can post question, user can add options to question, any user can give vote to the options. Any user can delete the option or question.
 Detailed features are explained in following sections.
 
-The Application is Hosted on: [http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000/](http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000/api/questions)
+The Application is Hosted on: http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000 (To get the required details add the routes mentioned in below API Routes section).
 (Note: This AWS instance will be terminated once I start new project.)
 
 ## Features
@@ -31,6 +31,14 @@ All the required routes are mentioned in Git hub repository particular file.
 3. Mongoose
 4. Express JS
 
+## API Routes
+http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000
+- /api/questions/create (To create a question)
+- /api/questions/:id/options/create (To add options to a specific question)
+- /api/questions/:id/delete (To delete a question)
+- /api/options/:id/delete (To delete an option)
+- /api/options/:id/add_vote (To increment the count of votes)
+- /api/questions/:id (To view a question and it’s options)
 
 ## Setup
 
