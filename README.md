@@ -33,6 +33,7 @@ All the required routes are mentioned in Git hub repository particular file.
 
 ## API Routes
 http://ec2-13-53-168-150.eu-north-1.compute.amazonaws.com:3000
+- /api/questions  (To View All questions)
 - /api/questions/create (To create a question)
 - /api/questions/:id/options/create (To add options to a specific question)
 - /api/questions/:id/delete (To delete a question)
